@@ -10,7 +10,7 @@ var app = express();
 var port = process.env.PORT || 8080
 
 // allows us to serve static files (images, CSS, etc)
-app.use(express.static(__dirname));
+app.use(express.static(__dirname + "/public"));
 
 // routes
 
