@@ -1,0 +1,22 @@
+{
+    "name" : "chatbot-facebook-nodejs",
+    "version" : "0.0.1",
+    "description" : "An awesome chatbot for Facebook Messenger",
+    "engines" : {
+        "node" : "6.10.2"
+    },
+    "main" : "server.js",
+    "scripts" : {
+        "start" : "node server.js"
+    },
+    "dependencies": {
+      "ejs": "2.5.6",
+      "express": "4.15.2"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/dmscn/chatbot-facebook-nodejs.git"
+    },
+    "author" : "Leonardo Damasceno",
+    "license" : "ISC"
+}
